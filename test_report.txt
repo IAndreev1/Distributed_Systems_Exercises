@@ -1,0 +1,41 @@
+| Test Name                                                                        | Max Points      | Achieved Points |
+|-------------------------------------------------------------------------------------------------------------------|
+| mbx_00_runAndShutdownMailboxServer_createsAndStopsTcpSocketCorrectly             | 0.5             | 0.0             |
+| mbx_01_dmtp_simple                                                               | 0.5             | 0.0             |
+| mbx_02_dmtp_ignoresForeignAddresses                                              | 0.5             | 0.0             |
+| mbx_03_dmtp_rejectsUnknownAddresses                                              | 0.5             | 0.0             |
+| mbx_04_login_withIllegalCredentials                                              | 0.5             | 0.0             |
+| mbx_05_login_Logout                                                              | 0.5             | 0.0             |
+| mbx_06_list_showsAcceptedMailCorrectly                                           | 0.5             | 0.0             |
+| mbx_07_list_showsOnlyUsersEmails                                                 | 1.0             | 0.0             |
+| mbx_08_show_showsEmailCorrectly                                                  | 1.0             | 0.0             |
+| mbx_09_delete_removesMail                                                        | 0.5             | 0.0             |
+| mc_01_msg_sendsAndMessageCorrectly                                               | 2.0             | 0.0             |
+| mc_02_inbox_displaysMessagesCorrectly                                            | 1.0             | 0.0             |
+| mc_03_verify_withValidSignature_returnsOk                                        | 1.0             | 0.0             |
+| mc_04_verify_withIllegalSignature_returnsFalse                                   | 1.0             | 0.0             |
+| mc_05_delete_deletesMessageFromServer                                            | 1.0             | 0.0             |
+| mc_07_startClient_shouldConnectToMailboxServerAndSendStartsecure                 | 1.0             | 0.0             |
+| mon_00_runAndShutdownMonitoringServer_createsAndStopsUdpSocketCorrectly          | 0.5             | 0.0             |
+| mon_01_addresses_returnsCorrectStatistics                                        | 0.75            | 0.0             |
+| mon_02_servers_returnsCorrectStatistics                                          | 0.75            | 0.0             |
+| ns_01_registerAndLookupMailboxServer_registersAndReturnsAddressCorrectly         | 2.0             | 0.0             |
+| ns_02_nameserver_returnsCorrectNameservers                                       | 1.0             | 0.0             |
+| ns_03_addresses_returnsCorrectAddresses                                          | 1.0             | 0.0             |
+| rmi_01_startAndShutdownRootNameserver_createsAndUnexportsRegistryCorrectly       | 1.0             | 0.0             |
+| rmi_02_startRootNameserver_registersRemoteObjectCorrectly                        | 1.0             | 0.0             |
+| rmi_03_startingZoneNameserver_registersNameserverCorrectly                       | 2.0             | 0.0             |
+| scen_01_simpleEmailSending                                                       | 0.5             | 0.0             |
+| scen_02_multipleRecipients                                                       | 0.5             | 0.0             |
+| scen_03_failureMessage                                                           | 2.0             | 0.0             |
+| scen_04_transferServerSendsMonitoringData                                        | 2.0             | 0.0             |
+| sec_01_sendStartsecure                                                           | 1.0             | 0.0             |
+| sec_02_dmap_without_startsecure                                                  | 1.0             | 0.0             |
+| tfs_00_runAndShutdownTransferServer_createsAndStopsTcpSocketCorrectly            | 0.5             | 0.0             |
+| tfs_01_dmtp_simple                                                               | 1.5             | 0.0             |
+| tfs_02_sendWithoutData_returnsErrorOnSend                                        | 0.5             | 0.0             |
+| tfs_03_sendWithoutRecipient_returnsErrorOnSend                                   | 0.5             | 0.0             |
+
+Summary:
+Total points possible: 33.00
+Total points earned: 0.00
